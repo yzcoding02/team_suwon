@@ -6,6 +6,7 @@
  * @function surfaceAreaCube
  * @description Calculate the Surface Area of a Cube.
  * @param {Integer} side - Integer
+ * 
  * @return {Integer} - 6 * side ** 2
  * @see [surfaceAreaCube](https://en.wikipedia.org/wiki/Area#Surface_area)
  * @example surfaceAreaCube(1) = 6
@@ -17,6 +18,10 @@ const surfaceAreaCube = (side) => {
 
 /**
  * @function surfaceAreaSphere
+ * 
+ * 
+ * 
+ * 
  * @description Calculate the Surface Area of a Sphere.
  * @param {Integer} radius - Integer
  * @return {Integer} - 4 * pi * r^2
