@@ -6,7 +6,6 @@
  * @function surfaceAreaCube
  * @description Calculate the Surface Area of a Cube.
  * @param {Integer} side - Integer
- * 
  * @return {Integer} - 6 * side ** 2
  * @see [surfaceAreaCube](https://en.wikipedia.org/wiki/Area#Surface_area)
  * @example surfaceAreaCube(1) = 6
@@ -18,10 +17,6 @@ const surfaceAreaCube = (side) => {
 
 /**
  * @function surfaceAreaSphere
- * 
- * 
- * 
- * 
  * @description Calculate the Surface Area of a Sphere.
  * @param {Integer} radius - Integer
  * @return {Integer} - 4 * pi * r^2
@@ -65,7 +60,7 @@ const areaSquare = (side) => {
  * @function areaTriangle
  * @description Calculate the area of a triangle.
  * @param {Integer} base - Integer
- * @param {Integer} height - Integer p
+ * @param {Integer} height - Integer
  * @return {Integer} - base * height / 2.
  * @see [areaTriangle](https://en.wikipedia.org/wiki/Area#Triangle_area)
  * @example areaTriangle(1.66, 3.44) = 2.8552
@@ -175,7 +170,7 @@ const validateNumericParam = (param, paramName = 'param') => {
     }
 }
 
-// //export {
+// export {
 //   surfaceAreaCube,
 //   surfaceAreaSphere,
 //   areaRectangle,
@@ -186,14 +181,14 @@ const validateNumericParam = (param, paramName = 'param') => {
 //   areaCircle,
 //   areaRhombus,
 //   areaTriangleWithAllThreeSides
-// //}
+// }
 console.log(surfaceAreaCube(2))
 console.log(surfaceAreaSphere(2))
-console.log(areaRectangle(2, 3))
-console.log(areaSquare(2, 3))
-console.log(areaTriangle(2, 3))
-console.log(areaParallelogram(2, 3))
-console.log(areaTrapezium(2, 3, 4))
+console.log(areaRectangle(2, 6))
+console.log(areaSquare(2, 5))
+console.log(areaTriangle(2, 5))
+console.log(areaParallelogram(2, 6))
+console.log(areaTrapezium(2, 5, 6))
 console.log(areaCircle(2))
-console.log(areaRhombus(2, 3))
-console.log(areaTriangleWithAllThreeSides(2, 3, 4))
+console.log(areaRhombus(2, 5))
+console.log(areaTriangleWithAllThreeSides(2, 5, 6))
