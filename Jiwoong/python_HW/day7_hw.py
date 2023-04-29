@@ -1,11 +1,24 @@
 import matplotlib.pyplot as plt
-subject = ["math", "science", "english", "society","korean"]
-subject2 = ["P.E", "art", "moral", "history","music"]
-barcolor=["darkred","red","yellow","greenyellow","green"]
-counts = [87,80, 95,97,100]
-counts2 = [97, 100, 93, 89,100]
-창, 내용 = plt.subplots(1,3)
-내용[0].bar(subject, counts,color=barcolor)
-내용[1].barh(subject, counts,color=barcolor)
-내용[2].bar(subject2, counts2,color=barcolor)
+plt.figure()
+x1=[0,0.8]
+y1=[1.5,0]
+x2=[0,1]
+y2=[2,0]
+x3=[0,1]
+y3=[0,2]
+x4=[0,1]
+y4=[0.75,0.75]
+x5=[0.5,0.5]
+y5=[0,2]
+x6=[0.2,1]
+y6=[0,1.5]
+plt.plot(
+         x1,y1,'r',
+         x2,y2,'y',
+         x3,y3,'g',
+         x4,y4,'b',
+         x5,y5,'g',
+         x6,y6,'y',
+)
 plt.show()
+
